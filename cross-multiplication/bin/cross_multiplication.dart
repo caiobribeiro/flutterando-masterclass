@@ -54,7 +54,7 @@ String crossMultiplicationReponse({
   if (isPossibleToCalculate(a: a, b: b, c: c, d: d) == true) {
     return 'Value = ${crossMultiplication(a: a, b: b, c: c, d: d)}';
   } else {
-    return 'Not enought numbers';
+    return 'Not enough numbers';
   }
 }
 
