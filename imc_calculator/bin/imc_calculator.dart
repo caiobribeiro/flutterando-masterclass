@@ -11,14 +11,10 @@ class Human {
   late double weight;
 
   Human({
-    required String name,
-    required double height,
-    required double weight,
-  }) {
-    this.name = name;
-    this.height = height;
-    this.weight = weight;
-  }
+    required this.name,
+    required this.height,
+    required this.weight,
+  });
 
   double imc() {
     final double imcValue = weight / pow(height, 2);
