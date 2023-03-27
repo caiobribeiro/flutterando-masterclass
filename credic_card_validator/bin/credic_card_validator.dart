@@ -1,5 +1,5 @@
 void main() {
-  final myCard = CreditCard(cardNumber: '4916 6418 5936 9080');
+  final myCard = CreditCard(cardNumber: '5419 8250 0346 1210');
   myCard.isCreditCardValid();
 }
 
@@ -78,7 +78,7 @@ class CreditCard {
     for (var i = 0; i < multipplicatedList.length; i++) {
       sum += multipplicatedList[i];
     }
-
+    print(sum);
     return sum;
   }
 }
