@@ -58,7 +58,7 @@ class VigenereCipher {
 
 void main() {
   final test = VigenereCipher();
-  final randomKeyGenereted = test.randomKeyGenerator('moh legal essa parada');
+  final randomKeyGenereted = test.randomKeyGenerator('deus é cantor');
   final mensagemCriptografada = test.encode(randomKeyGenereted);
   final decodedMessage = test.decode(mensagemCriptografada, randomKeyGenereted);
   print('Key');
