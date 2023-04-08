@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:login_screens/money/money.dart';
+import 'package:login_screens/tinder/tinder_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +16,13 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MoneyPage(),
+      home: const TinderPage(),
+      // Row(
+      //   children: const [
+      //     Expanded(child: MoneyPage()),
+      //     Expanded(child: TinderPage())
+      //   ],
+      // ),
     );
   }
 }

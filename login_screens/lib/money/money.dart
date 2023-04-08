@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:login_screens/money/custom_button.dart';
-import 'package:login_screens/money/logo.dart';
+import 'package:login_screens/money/src/widgets/money_button.dart';
+import 'package:login_screens/money/src/widgets/logo.dart';
 
 class MoneyPage extends StatelessWidget {
   const MoneyPage({super.key});
@@ -19,7 +19,7 @@ class MoneyPage extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: [
-                  const CustomButton(
+                  const MoneyButton(
                     textContent: 'Sign Up with Email ID',
                     textColor: Colors.white,
                     buttonColor: Color(0xFF5E5CE5),
@@ -27,7 +27,7 @@ class MoneyPage extends StatelessWidget {
                   const SizedBox(
                     height: 15,
                   ),
-                  CustomButton(
+                  MoneyButton(
                     textContent: 'Sign Up with Google',
                     textColor: Colors.black,
                     buttonColor: Colors.white,

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class CustomButton extends StatelessWidget {
+class MoneyButton extends StatelessWidget {
   final String textContent;
   final Image? imageContent;
   final Color buttonColor;
   final Color textColor;
-  const CustomButton({
+  const MoneyButton({
     super.key,
     required this.textContent,
     required this.buttonColor,
