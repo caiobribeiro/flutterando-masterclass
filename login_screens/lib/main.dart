@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const TinderPage(),
+      home: const MoneyPage(),
       // Row(
       //   children: const [
       //     Expanded(child: MoneyPage()),
